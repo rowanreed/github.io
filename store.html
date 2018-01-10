@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/storestylesheet.css">
+<link rel="script" href="../js/storescript.js">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>	
+  <script type="text/javascript" src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
+<title>Store</title>
+</head>
+
+<body>
+
+<section>
+			<header id="header">	
+				
+				
+				
+				<div id="nav">
+				<nav> 
+					<ul class="navbar">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="music.html">Music</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a href="store.html">Store</a>
+						</li>
+						<li>
+							<a href="demo.html">DEMO</a>
+						</li>
+					</ul>
+				</nav>
+				</div>
+				
+				<div class="socials">
+				
+					<a href="https://twitter.com/craysounds_">
+						
+						<svg id="twitter-icon" viewBox="0 0 64 64" width="64px" height="64px" fill="#FFFFFF" onclick="loadtwitter()">
+							<path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z"></path>
+						</svg>
+					
+					</a>
+					
+					<a href="https://open.spotify.com/artist/7pylhrS9HpyWwbTtmEqg9K">
+    
+						<svg id="spotify-icon"  viewBox="0 0 64 64" width="64px" height="64px" fill="#FFFFFF">
+							<path d="M32,16c-8.8,0-16,7.2-16,16c0,8.8,7.2,16,16,16c8.8,0,16-7.2,16-16C48,23.2,40.8,16,32,16 M39.3,39.1c-0.3,0.5-0.9,0.6-1.4,0.3c-3.8-2.3-8.5-2.8-14.1-1.5c-0.5,0.1-1.1-0.2-1.2-0.7c-0.1-0.5,0.2-1.1,0.8-1.2 c6.1-1.4,11.3-0.8,15.5,1.8C39.5,38,39.6,38.6,39.3,39.1 M41.3,34.7c-0.4,0.6-1.1,0.8-1.7,0.4c-4.3-2.6-10.9-3.4-15.9-1.9 c-0.7,0.2-1.4-0.2-1.6-0.8c-0.2-0.7,0.2-1.4,0.8-1.6c5.8-1.8,13-0.9,18,2.1C41.5,33.4,41.7,34.1,41.3,34.7 M41.5,30.2 c-5.2-3.1-13.7-3.3-18.6-1.9c-0.8,0.2-1.6-0.2-1.9-1c-0.2-0.8,0.2-1.6,1-1.9c5.7-1.7,15-1.4,21,2.1c0.7,0.4,0.9,1.3,0.5,2.1 C43.1,30.4,42.2,30.6,41.5,30.2"></path>
+						</svg>
+						
+					</a>
+
+					<a href="http://www.facebook.com/craysounds">
+						
+						<svg id="facebook-icon"  viewBox="0 0 64 64" width="64px" height="64px" fill="#FFFFFF">
+							<path d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"></path>
+						</svg>
+						
+					</a>
+
+					<a href="http://www.instagram.com/craysounds">
+						
+						<svg id="insta-icon"  viewBox="0 0 64 64" width="64px" height="64px" fill="#FFFFFF">
+							<path d="M46.91,25.816c-0.073-1.597-0.326-2.687-0.697-3.641c-0.383-0.986-0.896-1.823-1.73-2.657c-0.834-0.834-1.67-1.347-2.657-1.73c-0.954-0.371-2.045-0.624-3.641-0.697C36.585,17.017,36.074,17,32,17s-4.585,0.017-6.184,0.09c-1.597,0.073-2.687,0.326-3.641,0.697c-0.986,0.383-1.823,0.896-2.657,1.73c-0.834,0.834-1.347,1.67-1.73,2.657c-0.371,0.954-0.624,2.045-0.697,3.641C17.017,27.415,17,27.926,17,32c0,4.074,0.017,4.585,0.09,6.184c0.073,1.597,0.326,2.687,0.697,3.641c0.383,0.986,0.896,1.823,1.73,2.657c0.834,0.834,1.67,1.347,2.657,1.73c0.954,0.371,2.045,0.624,3.641,0.697C27.415,46.983,27.926,47,32,47s4.585-0.017,6.184-0.09c1.597-0.073,2.687-0.326,3.641-0.697c0.986-0.383,1.823-0.896,2.657-1.73c0.834-0.834,1.347-1.67,1.73-2.657c0.371-0.954,0.624-2.045,0.697-3.641C46.983,36.585,47,36.074,47,32S46.983,27.415,46.91,25.816z M44.21,38.061c-0.067,1.462-0.311,2.257-0.516,2.785c-0.272,0.7-0.597,1.2-1.122,1.725c-0.525,0.525-1.025,0.85-1.725,1.122c-0.529,0.205-1.323,0.45-2.785,0.516c-1.581,0.072-2.056,0.087-6.061,0.087s-4.48-0.015-6.061-0.087c-1.462-0.067-2.257-0.311-2.785-0.516c-0.7-0.272-1.2-0.597-1.725-1.122c-0.525-0.525-0.85-1.025-1.122-1.725c-0.205-0.529-0.45-1.323-0.516-2.785c-0.072-1.582-0.087-2.056-0.087-6.061s0.015-4.48,0.087-6.061c0.067-1.462,0.311-2.257,0.516-2.785c0.272-0.7,0.597-1.2,1.122-1.725c0.525-0.525,1.025-0.85,1.725-1.122c0.529-0.205,1.323-0.45,2.785-0.516c1.582-0.072,2.056-0.087,6.061-0.087s4.48,0.015,6.061,0.087c1.462,0.067,2.257,0.311,2.785,0.516c0.7,0.272,1.2,0.597,1.725,1.122c0.525,0.525,0.85,1.025,1.122,1.725c0.205,0.529,0.45,1.323,0.516,2.785c0.072,1.582,0.087,2.056,0.087,6.061S44.282,36.48,44.21,38.061z M32,24.297c-4.254,0-7.703,3.449-7.703,7.703c0,4.254,3.449,7.703,7.703,7.703c4.254,0,7.703-3.449,7.703-7.703C39.703,27.746,36.254,24.297,32,24.297z M32,37c-2.761,0-5-2.239-5-5c0-2.761,2.239-5,5-5s5,2.239,5,5C37,34.761,34.761,37,32,37z M40.007,22.193c-0.994,0-1.8,0.806-1.8,1.8c0,0.994,0.806,1.8,1.8,1.8c0.994,0,1.8-0.806,1.8-1.8C41.807,22.999,41.001,22.193,40.007,22.193z"></path>
+						</svg>
+						
+					</a>
+
+					<a href="https://www.twitch.tv/craysounds">
+						
+						<svg id="twitch-icon"  viewBox="0 0 64 64" width="64px" height="64px" fill="#FFFFFF">
+							<path d="M40,25.6h-2.5v7.6H40V25.6z M33,25.6h-2.5v7.6H33V25.6z M20.9,18L19,23.1v20.4h7v3.8h3.8l3.8-3.8h5.7l7.6-7.6V18H20.9z M44.5,34.5L40,39h-7l-3.8,3.8V39h-5.7V20.5h21V34.5z"></path>
+						</svg>
+						
+					</a>
+						
+					<a href="https://www.youtube.com/channel/UCQm4Qc8P88O347VgJaXT3DA">
+
+						<svg id="youtube-icon"  viewBox="0 0 64 64" width="64px" height="64px" fill="#FFFFFF">
+							<path d="M46.7,26c0,0-0.3-2.1-1.2-3c-1.1-1.2-2.4-1.2-3-1.3C38.3,21.4,32,21.4,32,21.4h0 c0,0-6.3,0-10.5,0.3c-0.6,0.1-1.9,0.1-3,1.3c-0.9,0.9-1.2,3-1.2,3S17,28.4,17,30.9v2.3c0,2.4,0.3,4.9,0.3,4.9s0.3,2.1,1.2,3 c1.1,1.2,2.6,1.2,3.3,1.3c2.4,0.2,10.2,0.3,10.2,0.3s6.3,0,10.5-0.3c0.6-0.1,1.9-0.1,3-1.3c0.9-0.9,1.2-3,1.2-3s0.3-2.4,0.3-4.9 v-2.3C47,28.4,46.7,26,46.7,26z M28.9,35.9l0-8.4l8.1,4.2L28.9,35.9z"></path>
+						</svg>
+					
+					</a>
+						
+					
+
+
+
+				</div>
+			
+			</header>
+</section>
+
+<section>
+
+	<div id="storediv">
+		
+		<ul class="products">
+		<li>
+			<a href="#" class="item">
+				<img src="../Assets/cray_shirt_black.png" />
+				<div class="priceHolder">
+					<p class="title" data="15">CRAY Black Shirt</p>
+					<p>Price:£15</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="../Assets/cray_shirt_white.png" />
+				<div class="priceHolder">
+					<p class="title" data="15">CRAY White Shirt</p>
+					<p>Price:£15</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="../Assets/one_of_us.png" />
+				<div class="priceHolder">
+					<p class="title" data="15">One of us T Shirt</p>
+					<p>Price:£15</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="../Assets/hat.png" />
+				<div class="priceHolder">
+					<p class="title" data="10">Hat</p>
+					<p>Price:£10</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="../Assets/sticker.png" />
+				<div class="priceHolder">
+					<p class="title" data="1">Sticker</p>
+					<p>Price:£1</p>
+				</div>
+			</a>
+		</li>
+		</ul>
+	</div>
+	
+	<div class="cart">
+		<h1>Shopping Cart</h1>
+		<div style="background:#fff" >
+			
+			<ul id="cartUl">
+			</ul>
+			
+		</div>
+		<div>
+				<button id="clear" onClick="clearCart()">Clear Cart</button>
+			</div>
+		<p class="total">Total: £<span id="totalPrice"></span></p>
+		<h2>Drop here to add to cart</h2>
+	</div>
+
+</section>
+
+<script>
+	
+	// items to drag
+			$('.item').draggable({
+				revert:true,
+				proxy:'clone',
+				onStartDrag:function(){
+					$(this).draggable('proxy').css('z-index',10);
+				}
+				
+			});
+			
+			//item to drop
+			$('.cart').droppable({
+				onDrop:function(e,source){
+					var name = $(source).find('p.title').text();
+					var price = $(source).find('p.title').attr("data");
+					addProduct(name, price, 1);
+					displayCart();
+				}
+			});
+	
+	function displayCart() {
+		var cartArray = cartdata();
+		var output = "";
+		for (var i in cartArray) {
+			output += "<li>"+cartArray[i].name+" "+cartArray[i].quantity+"</li>"
+		}
+		$("#cartUl").html(output);
+		$("#totalPrice").html(totalCart() );
+	}
+	
+	var cart = [];
+	
+	var Product = function(name, price, quantity) {
+		this.name = name
+		this.price = price
+		this.quantity = quantity
+	};
+
+	function addProduct(name, price, quantity){
+			for (var i in cart) {
+				if (cart[i].name === name) {
+					cart[i].quantity += quantity;
+					saveLocal();
+					return;
+				}
+			} 
+			var product = new Product(name, price, quantity);
+		cart.push(product);
+		saveLocal();
+	}
+	
+	function quantityCart() {
+		var totalQuantity = 0;
+		for (var i in cart) {
+			totalQuantity += cart[i].quantity
+		}
+		return totalQuantity;
+	}
+	
+	function totalCart() {
+		var totalCost = 0;
+		for (var i in cart) {
+			totalCost += cart[i].price * cart[i].quantity;
+		}
+		return totalCost;
+	}
+	
+			
+	function cartdata() {
+		var cartDuplicate = [];
+		for (var i in cart) {
+			var product = cart[i];
+			var productDuplicate = {};
+			for (var p in product) {
+				productDuplicate[p] = product[p]
+			}
+			cartDuplicate.push(productDuplicate);
+		}
+		return cartDuplicate;
+	}
+		
+	function clearCart() {
+		cart = [];
+		saveLocal();
+		$("#cartUl").empty();
+	}
+	
+	saveLocal();
+		
+	function saveLocal() {
+		localStorage.setItem("Basket", JSON.stringify(cart));
+	}
+			
+	function loadLocal() {
+		cart = JSON.parse(localStorage.getItem("Basket"));
+	}
+	
+	loadLocal();
+	
+	displayCart();
+		
+
+	
+	
+	</script>
+</body>
+</html>
